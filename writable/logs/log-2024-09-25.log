@@ -1,0 +1,602 @@
+CRITICAL - 2024-09-25 00:10:14 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: ";stok="
+[Method: GET, Route: cgi-bin/luci/;stok=/locale]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-09-25 00:10:15 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: ";stok="
+[Method: GET, Route: cgi-bin/luci/;stok=/locale]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-09-25 01:02:23 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: ";stok="
+[Method: GET, Route: cgi-bin/luci/;stok=/locale]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-09-25 01:02:23 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: ";stok="
+[Method: GET, Route: cgi-bin/luci/;stok=/locale]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-09-25 03:54:38 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: ";stok="
+[Method: GET, Route: cgi-bin/luci/;stok=/locale]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-09-25 03:54:38 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: ";stok="
+[Method: GET, Route: cgi-bin/luci/;stok=/locale]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ERROR - 2024-09-25 04:48:11 --> mysqli_sql_exception: Duplicate entry 'alikasbati78@gmail.com' for key 'email' in /var/www/api_kiacademy/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /var/www/api_kiacademy/system/Database/MySQLi/Connection.php(312): mysqli->query()
+#1 /var/www/api_kiacademy/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/api_kiacademy/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/api_kiacademy/system/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/api_kiacademy/app/Models/CommonModel.php(12): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/api_kiacademy/app/Controllers/UserController.php(135): App\Models\CommonModel->insertRecord()
+#6 /var/www/api_kiacademy/system/CodeIgniter.php(933): App\Controllers\UserController->create()
+#7 /var/www/api_kiacademy/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/api_kiacademy/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/api_kiacademy/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /var/www/api_kiacademy/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#11 /var/www/api_kiacademy/index.php(56): CodeIgniter\Boot::bootWeb()
+#12 {main}
+CRITICAL - 2024-09-25 04:48:11 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry 'alikasbati78@gmail.com' for key 'email'
+[Method: POST, Route: api/users/create]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/CommonModel.php(12): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/UserController.php(135): App\Models\CommonModel->insertRecord()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->create()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-09-25 04:48:11 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry 'alikasbati78@gmail.com' for key 'email'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH/Models/CommonModel.php(12): CodeIgniter\Database\BaseBuilder->insert()
+ 5 APPPATH/Controllers/UserController.php(135): App\Models\CommonModel->insertRecord()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->create()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-09-25 04:48:11 --> [Caused by] mysqli_sql_exception: Duplicate entry 'alikasbati78@gmail.com' for key 'email'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/CommonModel.php(12): CodeIgniter\Database\BaseBuilder->insert()
+ 6 APPPATH/Controllers/UserController.php(135): App\Models\CommonModel->insertRecord()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->create()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ERROR - 2024-09-25 04:48:17 --> mysqli_sql_exception: Duplicate entry 'alikasbati78@gmail.com' for key 'email' in /var/www/api_kiacademy/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /var/www/api_kiacademy/system/Database/MySQLi/Connection.php(312): mysqli->query()
+#1 /var/www/api_kiacademy/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/api_kiacademy/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/api_kiacademy/system/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/api_kiacademy/app/Models/CommonModel.php(12): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/api_kiacademy/app/Controllers/UserController.php(135): App\Models\CommonModel->insertRecord()
+#6 /var/www/api_kiacademy/system/CodeIgniter.php(933): App\Controllers\UserController->create()
+#7 /var/www/api_kiacademy/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/api_kiacademy/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/api_kiacademy/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /var/www/api_kiacademy/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#11 /var/www/api_kiacademy/index.php(56): CodeIgniter\Boot::bootWeb()
+#12 {main}
+CRITICAL - 2024-09-25 04:48:17 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry 'alikasbati78@gmail.com' for key 'email'
+[Method: POST, Route: api/users/create]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/CommonModel.php(12): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/UserController.php(135): App\Models\CommonModel->insertRecord()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->create()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-09-25 04:48:17 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry 'alikasbati78@gmail.com' for key 'email'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH/Models/CommonModel.php(12): CodeIgniter\Database\BaseBuilder->insert()
+ 5 APPPATH/Controllers/UserController.php(135): App\Models\CommonModel->insertRecord()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->create()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-09-25 04:48:17 --> [Caused by] mysqli_sql_exception: Duplicate entry 'alikasbati78@gmail.com' for key 'email'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/CommonModel.php(12): CodeIgniter\Database\BaseBuilder->insert()
+ 6 APPPATH/Controllers/UserController.php(135): App\Models\CommonModel->insertRecord()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->create()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ERROR - 2024-09-25 04:48:49 --> mysqli_sql_exception: Duplicate entry 'alikasbati78@gmail.com' for key 'email' in /var/www/api_kiacademy/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /var/www/api_kiacademy/system/Database/MySQLi/Connection.php(312): mysqli->query()
+#1 /var/www/api_kiacademy/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/api_kiacademy/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/api_kiacademy/system/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/api_kiacademy/app/Models/CommonModel.php(12): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/api_kiacademy/app/Controllers/UserController.php(135): App\Models\CommonModel->insertRecord()
+#6 /var/www/api_kiacademy/system/CodeIgniter.php(933): App\Controllers\UserController->create()
+#7 /var/www/api_kiacademy/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/api_kiacademy/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/api_kiacademy/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /var/www/api_kiacademy/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#11 /var/www/api_kiacademy/index.php(56): CodeIgniter\Boot::bootWeb()
+#12 {main}
+CRITICAL - 2024-09-25 04:48:49 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry 'alikasbati78@gmail.com' for key 'email'
+[Method: POST, Route: api/users/create]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/CommonModel.php(12): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/UserController.php(135): App\Models\CommonModel->insertRecord()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->create()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-09-25 04:48:49 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry 'alikasbati78@gmail.com' for key 'email'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH/Models/CommonModel.php(12): CodeIgniter\Database\BaseBuilder->insert()
+ 5 APPPATH/Controllers/UserController.php(135): App\Models\CommonModel->insertRecord()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->create()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-09-25 04:48:49 --> [Caused by] mysqli_sql_exception: Duplicate entry 'alikasbati78@gmail.com' for key 'email'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/CommonModel.php(12): CodeIgniter\Database\BaseBuilder->insert()
+ 6 APPPATH/Controllers/UserController.php(135): App\Models\CommonModel->insertRecord()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->create()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ERROR - 2024-09-25 04:49:24 --> mysqli_sql_exception: Duplicate entry 'alikasbati47@gmail.com' for key 'email' in /var/www/api_kiacademy/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /var/www/api_kiacademy/system/Database/MySQLi/Connection.php(312): mysqli->query()
+#1 /var/www/api_kiacademy/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/api_kiacademy/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/api_kiacademy/system/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/api_kiacademy/app/Models/CommonModel.php(12): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/api_kiacademy/app/Controllers/UserController.php(135): App\Models\CommonModel->insertRecord()
+#6 /var/www/api_kiacademy/system/CodeIgniter.php(933): App\Controllers\UserController->create()
+#7 /var/www/api_kiacademy/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/api_kiacademy/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/api_kiacademy/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /var/www/api_kiacademy/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#11 /var/www/api_kiacademy/index.php(56): CodeIgniter\Boot::bootWeb()
+#12 {main}
+CRITICAL - 2024-09-25 04:49:24 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry 'alikasbati47@gmail.com' for key 'email'
+[Method: POST, Route: api/users/create]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/CommonModel.php(12): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/UserController.php(135): App\Models\CommonModel->insertRecord()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->create()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-09-25 04:49:24 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry 'alikasbati47@gmail.com' for key 'email'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH/Models/CommonModel.php(12): CodeIgniter\Database\BaseBuilder->insert()
+ 5 APPPATH/Controllers/UserController.php(135): App\Models\CommonModel->insertRecord()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->create()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-09-25 04:49:24 --> [Caused by] mysqli_sql_exception: Duplicate entry 'alikasbati47@gmail.com' for key 'email'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/CommonModel.php(12): CodeIgniter\Database\BaseBuilder->insert()
+ 6 APPPATH/Controllers/UserController.php(135): App\Models\CommonModel->insertRecord()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->create()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-09-25 07:18:08 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: ";stok="
+[Method: GET, Route: cgi-bin/luci/;stok=/locale]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-09-25 07:18:08 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: ";stok="
+[Method: GET, Route: cgi-bin/luci/;stok=/locale]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-09-25 07:23:17 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: ";stok="
+[Method: GET, Route: cgi-bin/luci/;stok=/locale]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ERROR - 2024-09-25 07:54:59 --> Invalid token: 
+CRITICAL - 2024-09-25 07:57:56 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: ";stok="
+[Method: GET, Route: cgi-bin/luci/;stok=/locale]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-09-25 07:57:57 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: ";stok="
+[Method: GET, Route: cgi-bin/luci/;stok=/locale]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ERROR - 2024-09-25 11:14:26 --> mysqli_sql_exception: Duplicate entry 'fouzanahmed93@gmail.com' for key 'email' in /var/www/api_kiacademy/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /var/www/api_kiacademy/system/Database/MySQLi/Connection.php(312): mysqli->query()
+#1 /var/www/api_kiacademy/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/api_kiacademy/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/api_kiacademy/system/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/api_kiacademy/app/Models/CommonModel.php(12): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/api_kiacademy/app/Controllers/UserController.php(135): App\Models\CommonModel->insertRecord()
+#6 /var/www/api_kiacademy/system/CodeIgniter.php(933): App\Controllers\UserController->create()
+#7 /var/www/api_kiacademy/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/api_kiacademy/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/api_kiacademy/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /var/www/api_kiacademy/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#11 /var/www/api_kiacademy/index.php(56): CodeIgniter\Boot::bootWeb()
+#12 {main}
+CRITICAL - 2024-09-25 11:14:26 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry 'fouzanahmed93@gmail.com' for key 'email'
+[Method: POST, Route: api/users/create]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/CommonModel.php(12): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/UserController.php(135): App\Models\CommonModel->insertRecord()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->create()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-09-25 11:14:26 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry 'fouzanahmed93@gmail.com' for key 'email'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH/Models/CommonModel.php(12): CodeIgniter\Database\BaseBuilder->insert()
+ 5 APPPATH/Controllers/UserController.php(135): App\Models\CommonModel->insertRecord()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->create()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-09-25 11:14:26 --> [Caused by] mysqli_sql_exception: Duplicate entry 'fouzanahmed93@gmail.com' for key 'email'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/CommonModel.php(12): CodeIgniter\Database\BaseBuilder->insert()
+ 6 APPPATH/Controllers/UserController.php(135): App\Models\CommonModel->insertRecord()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->create()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ERROR - 2024-09-25 11:15:03 --> mysqli_sql_exception: Duplicate entry 'fouzanahmed93@gmail.com' for key 'email' in /var/www/api_kiacademy/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /var/www/api_kiacademy/system/Database/MySQLi/Connection.php(312): mysqli->query()
+#1 /var/www/api_kiacademy/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/api_kiacademy/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/api_kiacademy/system/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/api_kiacademy/app/Models/CommonModel.php(12): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/api_kiacademy/app/Controllers/UserController.php(135): App\Models\CommonModel->insertRecord()
+#6 /var/www/api_kiacademy/system/CodeIgniter.php(933): App\Controllers\UserController->create()
+#7 /var/www/api_kiacademy/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/api_kiacademy/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/api_kiacademy/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /var/www/api_kiacademy/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#11 /var/www/api_kiacademy/index.php(56): CodeIgniter\Boot::bootWeb()
+#12 {main}
+CRITICAL - 2024-09-25 11:15:03 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry 'fouzanahmed93@gmail.com' for key 'email'
+[Method: POST, Route: api/users/create]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/CommonModel.php(12): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/UserController.php(135): App\Models\CommonModel->insertRecord()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->create()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-09-25 11:15:03 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry 'fouzanahmed93@gmail.com' for key 'email'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH/Models/CommonModel.php(12): CodeIgniter\Database\BaseBuilder->insert()
+ 5 APPPATH/Controllers/UserController.php(135): App\Models\CommonModel->insertRecord()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->create()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-09-25 11:15:03 --> [Caused by] mysqli_sql_exception: Duplicate entry 'fouzanahmed93@gmail.com' for key 'email'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/CommonModel.php(12): CodeIgniter\Database\BaseBuilder->insert()
+ 6 APPPATH/Controllers/UserController.php(135): App\Models\CommonModel->insertRecord()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->create()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ERROR - 2024-09-25 11:17:39 --> mysqli_sql_exception: Duplicate entry 'fouzanahmed93@gmail.com' for key 'email' in /var/www/api_kiacademy/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /var/www/api_kiacademy/system/Database/MySQLi/Connection.php(312): mysqli->query()
+#1 /var/www/api_kiacademy/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/api_kiacademy/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/api_kiacademy/system/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/api_kiacademy/app/Models/CommonModel.php(12): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/api_kiacademy/app/Controllers/UserController.php(135): App\Models\CommonModel->insertRecord()
+#6 /var/www/api_kiacademy/system/CodeIgniter.php(933): App\Controllers\UserController->create()
+#7 /var/www/api_kiacademy/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/api_kiacademy/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/api_kiacademy/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /var/www/api_kiacademy/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#11 /var/www/api_kiacademy/index.php(56): CodeIgniter\Boot::bootWeb()
+#12 {main}
+CRITICAL - 2024-09-25 11:17:39 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry 'fouzanahmed93@gmail.com' for key 'email'
+[Method: POST, Route: api/users/create]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/CommonModel.php(12): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/UserController.php(135): App\Models\CommonModel->insertRecord()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->create()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-09-25 11:17:39 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry 'fouzanahmed93@gmail.com' for key 'email'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH/Models/CommonModel.php(12): CodeIgniter\Database\BaseBuilder->insert()
+ 5 APPPATH/Controllers/UserController.php(135): App\Models\CommonModel->insertRecord()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->create()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-09-25 11:17:39 --> [Caused by] mysqli_sql_exception: Duplicate entry 'fouzanahmed93@gmail.com' for key 'email'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/CommonModel.php(12): CodeIgniter\Database\BaseBuilder->insert()
+ 6 APPPATH/Controllers/UserController.php(135): App\Models\CommonModel->insertRecord()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\UserController->create()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-09-25 11:54:18 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: ";stok="
+[Method: GET, Route: cgi-bin/luci/;stok=/locale]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-09-25 11:54:18 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: ";stok="
+[Method: GET, Route: cgi-bin/luci/;stok=/locale]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-09-25 12:13:38 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: ";stok="
+[Method: GET, Route: cgi-bin/luci/;stok=/locale]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-09-25 12:13:38 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: ";stok="
+[Method: GET, Route: cgi-bin/luci/;stok=/locale]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-09-25 16:24:03 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: ";stok="
+[Method: GET, Route: cgi-bin/luci/;stok=/locale]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-09-25 16:24:03 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: ";stok="
+[Method: GET, Route: cgi-bin/luci/;stok=/locale]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-09-25 17:12:19 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: ";stok="
+[Method: GET, Route: cgi-bin/luci/;stok=/locale]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ERROR - 2024-09-25 18:20:17 --> Invalid token: 
+ERROR - 2024-09-25 18:50:17 --> Invalid token: 
+CRITICAL - 2024-09-25 19:33:04 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: ";stok="
+[Method: GET, Route: cgi-bin/luci/;stok=/locale]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-09-25 19:33:05 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: ";stok="
+[Method: GET, Route: cgi-bin/luci/;stok=/locale]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ERROR - 2024-09-25 19:50:17 --> Invalid token: 
+CRITICAL - 2024-09-25 20:27:55 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: ";stok="
+[Method: GET, Route: cgi-bin/luci/;stok=/locale]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-09-25 20:27:56 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: ";stok="
+[Method: GET, Route: cgi-bin/luci/;stok=/locale]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()

@@ -1,0 +1,511 @@
+CRITICAL - 2024-10-24 00:41:23 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: ";stok="
+[Method: GET, Route: cgi-bin/luci/;stok=/locale]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-24 02:06:31 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: ";stok="
+[Method: GET, Route: cgi-bin/luci/;stok=/locale]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-24 03:14:49 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: ";stok="
+[Method: GET, Route: cgi-bin/luci/;stok=/locale]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-24 06:23:39 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: api/courses/76]
+in APPPATH/Helpers/course_helper.php on line 12.
+ 1 APPPATH/Controllers/CourseController.php(36): getAverageRatingsForCourses()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\CourseController->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-24 06:23:39 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: api/courses/76]
+in APPPATH/Helpers/course_helper.php on line 12.
+ 1 APPPATH/Controllers/CourseController.php(36): getAverageRatingsForCourses()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\CourseController->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-24 06:48:37 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: api/courses/1]
+in APPPATH/Helpers/course_helper.php on line 12.
+ 1 APPPATH/Controllers/CourseController.php(36): getAverageRatingsForCourses()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\CourseController->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-24 06:48:38 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: api/courses/1]
+in APPPATH/Helpers/course_helper.php on line 12.
+ 1 APPPATH/Controllers/CourseController.php(36): getAverageRatingsForCourses()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\CourseController->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ERROR - 2024-10-24 07:29:10 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`kiacademy_db`.`cart`, CONSTRAINT `cart_ibfk_2` FOREIGN KEY (`course_id`) REFERENCES `courses` (`course_id`)) in /var/www/api_kiacademy/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /var/www/api_kiacademy/system/Database/MySQLi/Connection.php(312): mysqli->query()
+#1 /var/www/api_kiacademy/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/api_kiacademy/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/api_kiacademy/system/Database/BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/api_kiacademy/app/Models/CommonModel.php(38): CodeIgniter\Database\BaseBuilder->delete()
+#5 /var/www/api_kiacademy/app/Controllers/CourseController.php(266): App\Models\CommonModel->deleteRecord()
+#6 /var/www/api_kiacademy/system/CodeIgniter.php(933): App\Controllers\CourseController->delete()
+#7 /var/www/api_kiacademy/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/api_kiacademy/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/api_kiacademy/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /var/www/api_kiacademy/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#11 /var/www/api_kiacademy/index.php(56): CodeIgniter\Boot::bootWeb()
+#12 {main}
+CRITICAL - 2024-10-24 07:29:10 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`kiacademy_db`.`cart`, CONSTRAINT `cart_ibfk_2` FOREIGN KEY (`course_id`) REFERENCES `courses` (`course_id`))
+[Method: DELETE, Route: api/courses/delete/4]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/CommonModel.php(38): CodeIgniter\Database\BaseBuilder->delete()
+ 3 APPPATH/Controllers/CourseController.php(266): App\Models\CommonModel->deleteRecord()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\CourseController->delete()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-24 07:29:10 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`kiacademy_db`.`cart`, CONSTRAINT `cart_ibfk_2` FOREIGN KEY (`course_id`) REFERENCES `courses` (`course_id`))
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH/Models/CommonModel.php(38): CodeIgniter\Database\BaseBuilder->delete()
+ 5 APPPATH/Controllers/CourseController.php(266): App\Models\CommonModel->deleteRecord()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\CourseController->delete()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-24 07:29:10 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`kiacademy_db`.`cart`, CONSTRAINT `cart_ibfk_2` FOREIGN KEY (`course_id`) REFERENCES `courses` (`course_id`))
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/CommonModel.php(38): CodeIgniter\Database\BaseBuilder->delete()
+ 6 APPPATH/Controllers/CourseController.php(266): App\Models\CommonModel->deleteRecord()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\CourseController->delete()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ERROR - 2024-10-24 07:30:31 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`kiacademy_db`.`cart`, CONSTRAINT `cart_ibfk_2` FOREIGN KEY (`course_id`) REFERENCES `courses` (`course_id`)) in /var/www/api_kiacademy/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /var/www/api_kiacademy/system/Database/MySQLi/Connection.php(312): mysqli->query()
+#1 /var/www/api_kiacademy/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/api_kiacademy/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/api_kiacademy/system/Database/BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/api_kiacademy/app/Models/CommonModel.php(38): CodeIgniter\Database\BaseBuilder->delete()
+#5 /var/www/api_kiacademy/app/Controllers/CourseController.php(266): App\Models\CommonModel->deleteRecord()
+#6 /var/www/api_kiacademy/system/CodeIgniter.php(933): App\Controllers\CourseController->delete()
+#7 /var/www/api_kiacademy/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/api_kiacademy/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/api_kiacademy/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /var/www/api_kiacademy/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#11 /var/www/api_kiacademy/index.php(56): CodeIgniter\Boot::bootWeb()
+#12 {main}
+CRITICAL - 2024-10-24 07:30:31 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`kiacademy_db`.`cart`, CONSTRAINT `cart_ibfk_2` FOREIGN KEY (`course_id`) REFERENCES `courses` (`course_id`))
+[Method: DELETE, Route: api/courses/delete/4]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/CommonModel.php(38): CodeIgniter\Database\BaseBuilder->delete()
+ 3 APPPATH/Controllers/CourseController.php(266): App\Models\CommonModel->deleteRecord()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\CourseController->delete()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-24 07:30:31 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`kiacademy_db`.`cart`, CONSTRAINT `cart_ibfk_2` FOREIGN KEY (`course_id`) REFERENCES `courses` (`course_id`))
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH/Models/CommonModel.php(38): CodeIgniter\Database\BaseBuilder->delete()
+ 5 APPPATH/Controllers/CourseController.php(266): App\Models\CommonModel->deleteRecord()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\CourseController->delete()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-24 07:30:31 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`kiacademy_db`.`cart`, CONSTRAINT `cart_ibfk_2` FOREIGN KEY (`course_id`) REFERENCES `courses` (`course_id`))
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/CommonModel.php(38): CodeIgniter\Database\BaseBuilder->delete()
+ 6 APPPATH/Controllers/CourseController.php(266): App\Models\CommonModel->deleteRecord()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\CourseController->delete()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-24 07:47:33 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: ";"
+[Method: GET, Route: s/lkx/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-24 08:25:00 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: ";stok="
+[Method: GET, Route: cgi-bin/luci/;stok=/locale]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-24 08:25:11 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: ";stok="
+[Method: GET, Route: cgi-bin/luci/;stok=/locale]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-24 08:28:18 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: ";stok="
+[Method: GET, Route: cgi-bin/luci/;stok=/locale]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ERROR - 2024-10-24 09:33:50 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`kiacademy_db`.`cart`, CONSTRAINT `cart_ibfk_2` FOREIGN KEY (`course_id`) REFERENCES `courses` (`course_id`)) in /var/www/api_kiacademy/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /var/www/api_kiacademy/system/Database/MySQLi/Connection.php(312): mysqli->query()
+#1 /var/www/api_kiacademy/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/api_kiacademy/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/api_kiacademy/system/Database/BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/api_kiacademy/app/Models/CommonModel.php(38): CodeIgniter\Database\BaseBuilder->delete()
+#5 /var/www/api_kiacademy/app/Controllers/CourseController.php(266): App\Models\CommonModel->deleteRecord()
+#6 /var/www/api_kiacademy/system/CodeIgniter.php(933): App\Controllers\CourseController->delete()
+#7 /var/www/api_kiacademy/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/api_kiacademy/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/api_kiacademy/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /var/www/api_kiacademy/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#11 /var/www/api_kiacademy/index.php(56): CodeIgniter\Boot::bootWeb()
+#12 {main}
+CRITICAL - 2024-10-24 09:33:50 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`kiacademy_db`.`cart`, CONSTRAINT `cart_ibfk_2` FOREIGN KEY (`course_id`) REFERENCES `courses` (`course_id`))
+[Method: DELETE, Route: api/courses/delete/4]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/CommonModel.php(38): CodeIgniter\Database\BaseBuilder->delete()
+ 3 APPPATH/Controllers/CourseController.php(266): App\Models\CommonModel->deleteRecord()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\CourseController->delete()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-24 09:33:50 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`kiacademy_db`.`cart`, CONSTRAINT `cart_ibfk_2` FOREIGN KEY (`course_id`) REFERENCES `courses` (`course_id`))
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH/Models/CommonModel.php(38): CodeIgniter\Database\BaseBuilder->delete()
+ 5 APPPATH/Controllers/CourseController.php(266): App\Models\CommonModel->deleteRecord()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\CourseController->delete()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-24 09:33:50 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`kiacademy_db`.`cart`, CONSTRAINT `cart_ibfk_2` FOREIGN KEY (`course_id`) REFERENCES `courses` (`course_id`))
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/CommonModel.php(38): CodeIgniter\Database\BaseBuilder->delete()
+ 6 APPPATH/Controllers/CourseController.php(266): App\Models\CommonModel->deleteRecord()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\CourseController->delete()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ERROR - 2024-10-24 09:34:03 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`kiacademy_db`.`cart`, CONSTRAINT `cart_ibfk_2` FOREIGN KEY (`course_id`) REFERENCES `courses` (`course_id`)) in /var/www/api_kiacademy/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /var/www/api_kiacademy/system/Database/MySQLi/Connection.php(312): mysqli->query()
+#1 /var/www/api_kiacademy/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/api_kiacademy/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/api_kiacademy/system/Database/BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/api_kiacademy/app/Models/CommonModel.php(38): CodeIgniter\Database\BaseBuilder->delete()
+#5 /var/www/api_kiacademy/app/Controllers/CourseController.php(266): App\Models\CommonModel->deleteRecord()
+#6 /var/www/api_kiacademy/system/CodeIgniter.php(933): App\Controllers\CourseController->delete()
+#7 /var/www/api_kiacademy/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/api_kiacademy/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/api_kiacademy/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /var/www/api_kiacademy/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#11 /var/www/api_kiacademy/index.php(56): CodeIgniter\Boot::bootWeb()
+#12 {main}
+CRITICAL - 2024-10-24 09:34:03 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`kiacademy_db`.`cart`, CONSTRAINT `cart_ibfk_2` FOREIGN KEY (`course_id`) REFERENCES `courses` (`course_id`))
+[Method: DELETE, Route: api/courses/delete/4]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/CommonModel.php(38): CodeIgniter\Database\BaseBuilder->delete()
+ 3 APPPATH/Controllers/CourseController.php(266): App\Models\CommonModel->deleteRecord()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\CourseController->delete()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-24 09:34:03 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`kiacademy_db`.`cart`, CONSTRAINT `cart_ibfk_2` FOREIGN KEY (`course_id`) REFERENCES `courses` (`course_id`))
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH/Models/CommonModel.php(38): CodeIgniter\Database\BaseBuilder->delete()
+ 5 APPPATH/Controllers/CourseController.php(266): App\Models\CommonModel->deleteRecord()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\CourseController->delete()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-24 09:34:03 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`kiacademy_db`.`cart`, CONSTRAINT `cart_ibfk_2` FOREIGN KEY (`course_id`) REFERENCES `courses` (`course_id`))
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/CommonModel.php(38): CodeIgniter\Database\BaseBuilder->delete()
+ 6 APPPATH/Controllers/CourseController.php(266): App\Models\CommonModel->deleteRecord()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\CourseController->delete()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-24 09:53:29 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: api/courses/36]
+in APPPATH/Helpers/course_helper.php on line 12.
+ 1 APPPATH/Helpers/course_helper.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/CourseController.php(36): getAverageRatingsForCourses()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\CourseController->index()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-24 09:53:29 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: api/courses/36]
+in APPPATH/Helpers/course_helper.php on line 12.
+ 1 APPPATH/Helpers/course_helper.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/CourseController.php(36): getAverageRatingsForCourses()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\CourseController->index()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ERROR - 2024-10-24 09:54:07 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`kiacademy_db`.`cart`, CONSTRAINT `cart_ibfk_2` FOREIGN KEY (`course_id`) REFERENCES `courses` (`course_id`)) in /var/www/api_kiacademy/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /var/www/api_kiacademy/system/Database/MySQLi/Connection.php(312): mysqli->query()
+#1 /var/www/api_kiacademy/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/api_kiacademy/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/api_kiacademy/system/Database/BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/api_kiacademy/app/Models/CommonModel.php(38): CodeIgniter\Database\BaseBuilder->delete()
+#5 /var/www/api_kiacademy/app/Controllers/CourseController.php(266): App\Models\CommonModel->deleteRecord()
+#6 /var/www/api_kiacademy/system/CodeIgniter.php(933): App\Controllers\CourseController->delete()
+#7 /var/www/api_kiacademy/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/api_kiacademy/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/api_kiacademy/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /var/www/api_kiacademy/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#11 /var/www/api_kiacademy/index.php(56): CodeIgniter\Boot::bootWeb()
+#12 {main}
+CRITICAL - 2024-10-24 09:54:07 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`kiacademy_db`.`cart`, CONSTRAINT `cart_ibfk_2` FOREIGN KEY (`course_id`) REFERENCES `courses` (`course_id`))
+[Method: DELETE, Route: api/courses/delete/4]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/CommonModel.php(38): CodeIgniter\Database\BaseBuilder->delete()
+ 3 APPPATH/Controllers/CourseController.php(266): App\Models\CommonModel->deleteRecord()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\CourseController->delete()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-24 09:54:07 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`kiacademy_db`.`cart`, CONSTRAINT `cart_ibfk_2` FOREIGN KEY (`course_id`) REFERENCES `courses` (`course_id`))
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH/Models/CommonModel.php(38): CodeIgniter\Database\BaseBuilder->delete()
+ 5 APPPATH/Controllers/CourseController.php(266): App\Models\CommonModel->deleteRecord()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\CourseController->delete()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-24 09:54:07 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`kiacademy_db`.`cart`, CONSTRAINT `cart_ibfk_2` FOREIGN KEY (`course_id`) REFERENCES `courses` (`course_id`))
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2843): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/CommonModel.php(38): CodeIgniter\Database\BaseBuilder->delete()
+ 6 APPPATH/Controllers/CourseController.php(266): App\Models\CommonModel->deleteRecord()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\CourseController->delete()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ERROR - 2024-10-24 10:19:57 --> Invalid token: 
+ERROR - 2024-10-24 10:20:26 --> Invalid token: 
+CRITICAL - 2024-10-24 10:20:33 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: api/courses/4]
+in APPPATH/Helpers/course_helper.php on line 12.
+ 1 APPPATH/Controllers/CourseController.php(36): getAverageRatingsForCourses()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\CourseController->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-24 10:20:53 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: api/courses/71]
+in APPPATH/Helpers/course_helper.php on line 12.
+ 1 APPPATH/Helpers/course_helper.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/CourseController.php(36): getAverageRatingsForCourses()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\CourseController->index()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-24 10:22:26 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: api/courses/71]
+in APPPATH/Helpers/course_helper.php on line 12.
+ 1 APPPATH/Helpers/course_helper.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/CourseController.php(36): getAverageRatingsForCourses()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\CourseController->index()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-24 10:36:40 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: api/courses/71]
+in APPPATH/Helpers/course_helper.php on line 12.
+ 1 APPPATH/Helpers/course_helper.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/CourseController.php(36): getAverageRatingsForCourses()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\CourseController->index()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-24 10:38:10 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: api/courses/71]
+in APPPATH/Helpers/course_helper.php on line 12.
+ 1 APPPATH/Helpers/course_helper.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/CourseController.php(36): getAverageRatingsForCourses()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\CourseController->index()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-24 10:51:05 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: api/courses/71]
+in APPPATH/Helpers/course_helper.php on line 12.
+ 1 APPPATH/Controllers/CourseController.php(36): getAverageRatingsForCourses()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\CourseController->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-24 11:17:15 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: ";stok="
+[Method: GET, Route: cgi-bin/luci/;stok=/locale]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-24 15:06:29 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: ";stok="
+[Method: GET, Route: cgi-bin/luci/;stok=/locale]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ERROR - 2024-10-24 15:39:45 --> Invalid token: 
+ERROR - 2024-10-24 15:39:48 --> Invalid token: 
+ERROR - 2024-10-24 15:40:34 --> Invalid token: 
+CRITICAL - 2024-10-24 16:07:15 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: ";stok="
+[Method: GET, Route: cgi-bin/luci/;stok=/locale]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-24 23:18:28 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: ";stok="
+[Method: GET, Route: cgi-bin/luci/;stok=/locale]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()

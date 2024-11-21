@@ -1,0 +1,279 @@
+CRITICAL - 2024-10-29 06:49:37 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: api/questions/1]
+in APPPATH/Controllers/QuestionAnswerController.php on line 35.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuestionAnswerController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-29 06:49:38 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: api/questions/1]
+in APPPATH/Controllers/QuestionAnswerController.php on line 35.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuestionAnswerController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-29 07:43:42 --> CodeIgniter\Validation\Exceptions\ValidationException: "question" is not a validation rules group.
+[Method: POST, Route: api/questions/update/3]
+in SYSTEMPATH/Validation/Validation.php on line 751.
+ 1 SYSTEMPATH/Validation/Validation.php(751): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+ 2 SYSTEMPATH/Validation/Validation.php(148): CodeIgniter\Validation\Validation->loadRuleGroup()
+ 3 APPPATH/Controllers/QuestionAnswerController.php(134): CodeIgniter\Validation\Validation->run()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuestionAnswerController->update()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-29 07:44:03 --> CodeIgniter\Validation\Exceptions\ValidationException: "question" is not a validation rules group.
+[Method: POST, Route: api/questions/update/3]
+in SYSTEMPATH/Validation/Validation.php on line 751.
+ 1 SYSTEMPATH/Validation/Validation.php(751): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+ 2 SYSTEMPATH/Validation/Validation.php(148): CodeIgniter\Validation\Validation->loadRuleGroup()
+ 3 APPPATH/Controllers/QuestionAnswerController.php(134): CodeIgniter\Validation\Validation->run()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuestionAnswerController->update()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-29 07:45:24 --> CodeIgniter\Validation\Exceptions\ValidationException: "question" is not a validation rules group.
+[Method: POST, Route: api/questions/update/3]
+in SYSTEMPATH/Validation/Validation.php on line 751.
+ 1 SYSTEMPATH/Validation/Validation.php(751): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+ 2 SYSTEMPATH/Validation/Validation.php(148): CodeIgniter\Validation\Validation->loadRuleGroup()
+ 3 APPPATH/Controllers/QuestionAnswerController.php(134): CodeIgniter\Validation\Validation->run()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuestionAnswerController->update()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-29 07:45:31 --> CodeIgniter\Validation\Exceptions\ValidationException: "question" is not a validation rules group.
+[Method: POST, Route: api/questions/update/3]
+in SYSTEMPATH/Validation/Validation.php on line 751.
+ 1 SYSTEMPATH/Validation/Validation.php(751): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+ 2 SYSTEMPATH/Validation/Validation.php(148): CodeIgniter\Validation\Validation->loadRuleGroup()
+ 3 APPPATH/Controllers/QuestionAnswerController.php(134): CodeIgniter\Validation\Validation->run()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuestionAnswerController->update()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-29 08:02:25 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: ";stok="
+[Method: GET, Route: cgi-bin/luci/;stok=/locale]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-29 09:16:25 --> ErrorException: Undefined property: Config\Validation::$notificationRules
+[Method: POST, Route: api/notifications/create]
+in APPPATH/Controllers/NotificationController.php on line 76.
+ 1 APPPATH/Controllers/NotificationController.php(76): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\NotificationController->create()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-29 09:16:46 --> ErrorException: Undefined property: Config\Validation::$notificationRules
+[Method: POST, Route: api/notifications/create]
+in APPPATH/Controllers/NotificationController.php on line 76.
+ 1 APPPATH/Controllers/NotificationController.php(76): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\NotificationController->create()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-29 09:17:03 --> ErrorException: Undefined property: Config\Validation::$notificationRules
+[Method: POST, Route: api/notifications/create]
+in APPPATH/Controllers/NotificationController.php on line 76.
+ 1 APPPATH/Controllers/NotificationController.php(76): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\NotificationController->create()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-29 09:20:20 --> ErrorException: Undefined property: Config\Validation::$notificationRules
+[Method: POST, Route: api/notifications/create]
+in APPPATH/Controllers/NotificationController.php on line 76.
+ 1 APPPATH/Controllers/NotificationController.php(76): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\NotificationController->create()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-29 09:28:37 --> ErrorException: Undefined property: Config\Validation::$notificationRules
+[Method: POST, Route: api/notifications/create]
+in APPPATH/Controllers/NotificationController.php on line 76.
+ 1 APPPATH/Controllers/NotificationController.php(76): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\NotificationController->create()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-29 09:55:00 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: ";stok="
+[Method: GET, Route: cgi-bin/luci/;stok=/locale]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-29 10:01:39 --> ErrorException: Undefined property: Config\Validation::$notificationRules
+[Method: POST, Route: api/notifications/create]
+in APPPATH/Controllers/NotificationController.php on line 76.
+ 1 APPPATH/Controllers/NotificationController.php(76): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\NotificationController->create()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ERROR - 2024-10-29 10:24:55 --> mysqli_sql_exception: Column 'sender_id' cannot be null in /var/www/api_kiacademy/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /var/www/api_kiacademy/system/Database/MySQLi/Connection.php(312): mysqli->query()
+#1 /var/www/api_kiacademy/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/api_kiacademy/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/api_kiacademy/system/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/api_kiacademy/app/Models/CommonModel.php(12): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/api_kiacademy/app/Controllers/NotificationController.php(86): App\Models\CommonModel->insertRecord()
+#6 /var/www/api_kiacademy/system/CodeIgniter.php(933): App\Controllers\NotificationController->create()
+#7 /var/www/api_kiacademy/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/api_kiacademy/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/api_kiacademy/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /var/www/api_kiacademy/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#11 /var/www/api_kiacademy/index.php(56): CodeIgniter\Boot::bootWeb()
+#12 {main}
+CRITICAL - 2024-10-29 10:24:55 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'sender_id' cannot be null
+[Method: POST, Route: api/notifications/create]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/CommonModel.php(12): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/NotificationController.php(86): App\Models\CommonModel->insertRecord()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\NotificationController->create()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-29 10:24:55 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'sender_id' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH/Models/CommonModel.php(12): CodeIgniter\Database\BaseBuilder->insert()
+ 5 APPPATH/Controllers/NotificationController.php(86): App\Models\CommonModel->insertRecord()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\NotificationController->create()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-29 10:24:55 --> [Caused by] mysqli_sql_exception: Column 'sender_id' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/CommonModel.php(12): CodeIgniter\Database\BaseBuilder->insert()
+ 6 APPPATH/Controllers/NotificationController.php(86): App\Models\CommonModel->insertRecord()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\NotificationController->create()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-29 11:05:00 --> TypeError: CodeIgniter\Database\BaseBuilder::hasOperator(): Argument #1 ($str) must be of type string, int given, called in /var/www/api_kiacademy/system/Database/BaseBuilder.php on line 801
+[Method: GET, Route: api/notifications/35]
+in SYSTEMPATH/Database/BaseBuilder.php on line 3428.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(801): CodeIgniter\Database\BaseBuilder->hasOperator()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(717): CodeIgniter\Database\BaseBuilder->whereHaving()
+ 3 APPPATH/Models/CommonModel.php(52): CodeIgniter\Database\BaseBuilder->where()
+ 4 APPPATH/Controllers/NotificationController.php(27): App\Models\CommonModel->rowRecord()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\NotificationController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ERROR - 2024-10-29 11:13:48 --> Invalid token: 
+CRITICAL - 2024-10-29 13:40:45 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: ";stok="
+[Method: GET, Route: cgi-bin/luci/;stok=/locale]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ERROR - 2024-10-29 14:28:56 --> Invalid token: 
+CRITICAL - 2024-10-29 15:13:23 --> ErrorException: Undefined array key "quantity"
+[Method: POST, Route: api/cart/add]
+in APPPATH/Controllers/CartController.php on line 38.
+ 1 APPPATH/Controllers/CartController.php(38): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\CartController->addToCart()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ERROR - 2024-10-29 16:21:32 --> Invalid token: 
+CRITICAL - 2024-10-29 16:22:24 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: GET, Route: api/courses/recomented/5]
+in SYSTEMPATH/Database/BaseConnection.php on line 927.
+ 1 SYSTEMPATH/Model.php(716): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(922): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/CourseController.php(74): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\CourseController->recomended()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ERROR - 2024-10-29 16:27:07 --> Invalid token: 
+CRITICAL - 2024-10-29 18:43:07 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: ";stok="
+[Method: GET, Route: cgi-bin/luci/;stok=/locale]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-29 20:59:28 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: ";stok="
+[Method: GET, Route: cgi-bin/luci/;stok=/locale]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-29 22:32:00 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: ";stok="
+[Method: GET, Route: cgi-bin/luci/;stok=/locale]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()

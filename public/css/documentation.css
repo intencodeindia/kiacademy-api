@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    padding-top: 56px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    height: 100%;
+    font-style: normal;
+    line-height: 1.6;
+    overflow-x: hidden;
+    /* Prevent horizontal scroll on small screens */
+}
+
+/* Ensure the footer has a background color and is aligned at the bottom */
+.footer {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    border-top: 1px solid #fdfeff;
+}
+
+.bd-callout-info {
+    --bd-callout-color: var(--bs-warning-text-emphasis);
+    --bd-callout-bg: var(--bs-warning-bg-subtle);
+    --bd-callout-border: var(--bs-warning-border-subtle);
+}
+
+.bd-callout {
+    --bs-link-color-rgb: var(--bd-callout-link);
+    --bs-code-color: var(--bd-callout-code-color);
+    padding: 1.25rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    color: var(--bd-callout-color, inherit);
+    border-left: 0.55rem solid var(--bd-callout-border, var(--bs-gray-300));
+}
+
+.sidebar {
+    position: fixed;
+    top: 56px;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    height: 100%;
+    max-width: 300px;
+    padding: 1.5rem;
+    background-color: #f8f9fa;
+    overflow-y: auto;
+    transition: all 0.3s ease;
+}
+
+.main-content {
+    margin-left: 320px;
+    padding: 1.5rem;
+    transition: margin-left 0.3s ease;
+}
+
+.search-bar {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0.5rem;
+}
+
+.navbar-brand img {
+    height: 40px;
+    transition: height 0.3s ease;
+}
+
+.hidden {
+    display: none;
+}
+
+.card-header {
+    font-weight: 600;
+    background-color: #e9ecef;
+    border-bottom: 2px solid #dee2e6;
+    padding: 0.75rem;
+}
+
+.response-example {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    border-radius: 0.375rem;
+    position: relative;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+.response-example::-webkit-scrollbar {
+    width: 12px;
+}
+
+.response-example::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.response-example::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 6px;
+}
+
+.response-example::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.response-example {
+    scrollbar-width: thin;
+    scrollbar-color: rgb(2, 85, 194) #fafafa;
+}
+
+.copy-btn {
+    cursor: pointer;
+    font-size: 0.9rem;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #e0e0e0;
+    background: #ffffff;
+    border: 1px solid #007bff;
+    border-radius: 0.25rem;
+    padding: 0.25rem 0.5rem;
+}
+
+.copy-btn:hover {
+    background-color: #e9ecef;
+}
+
+.dropdown-item {
+    cursor: pointer;
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+    .sidebar {
+        max-width: 250px;
+        padding: 1rem;
+    }
+
+    .main-content {
+        margin-left: 0;
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .sidebar {
+        position: relative;
+        max-width: 100%;
+        height: auto;
+        overflow: visible;
+        transition: transform 0.3s ease;
+    }
+
+    .sidebar.collapsed {
+        transform: translateX(-100%);
+    }
+
+    .main-content {
+        margin-left: 0;
+        padding: 1rem;
+    }
+
+    .navbar-brand img {
+        height: 30px;
+    }
+
+    .search-bar {
+        max-width: 100%;
+        margin: 0;
+        padding: 0.5rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .sidebar {
+        padding: 0.75rem;
+    }
+
+    .card-header {
+        font-size: 0.875rem;
+        padding: 0.5rem;
+    }
+
+    .response-example {
+        padding: 0.75rem;
+    }
+
+    .copy-btn {
+        font-size: 0.8rem;
+        padding: 0.2rem 0.4rem;
+    }
+}
+
+.method-get {
+    color: green;
+}
+
+.method-post {
+    color: blue;
+}
+
+.method-put {
+    color: orange;
+}
+
+.method-delete {
+    color: red;
+}
+
+.colors-text {
+    font-size: 10px;
+    font-weight: 700;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 6px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+body {
+    scrollbar-width: thin;
+    scrollbar-color: rgb(2, 85, 194) #fafafa;
+}
